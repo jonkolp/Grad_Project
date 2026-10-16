@@ -6,12 +6,16 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-ee4c2c.svg)](https://pytorch.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28%2B-FF4B4B.svg)](https://streamlit.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Presentation](https://img.shields.io/badge/Slides-Final%20Presentation%20(PDF)-orange?logo=adobeacrobatreader&logoColor=white)](docs/Final_Presentation.pdf)
+[![Documentation](https://img.shields.io/badge/Thesis-Documentation%20(PDF)-blue?logo=adobeacrobatreader&logoColor=white)](docs/Final_Documentation.pdf)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Domain](https://img.shields.io/badge/Domain-Medical%20Computer%20Vision-purple.svg)](#)
 
 *An end-to-end Computer-Aided Diagnosis (CAD) framework for multi-class thoracic pathology classification from Chest Radiographs (CXR), featuring dynamic weighted ensemble fusion and real-time Occlusion Sensitivity interpretability.*
 
 [Overview](#-overview) •
+[📊 Presentation Slides](docs/Final_Presentation.pdf) •
+[📑 Documentation](docs/Final_Documentation.pdf) •
 [Methodology](#-system-architecture--methodology) •
 [Pathology Taxonomy](#-pathological-taxonomy-9-classes) •
 [Benchmark Results](#-experimental-results) •
@@ -29,6 +33,11 @@
 ---
 
 ## 📌 Overview
+
+> 🎓 **Academic Project Deliverables**:
+> - 📊 **[Final Defense Presentation (PDF)](docs/Final_Presentation.pdf)**: Comprehensive 45-slide presentation deck detailing problem statement, methodology, confusion matrices, and live demo results.
+> - 📑 **[Graduation Thesis Documentation (PDF)](docs/Final_Documentation.pdf)**: Full 16-page graduation report submitted to MSA University & University of Greenwich.
+> - 🔮 **[Future Work Roadmap (Markdown)](docs/FUTURE_WORK.md)**: Detailed research directions covering multi-label reformulation, foundation models, and clinical DICOM pipelines.
 
 Thoracic and chronic respiratory diseases affect over **540 million people worldwide** and cause more than **3.2 million fatalities annually**. Chest X-rays (CXR) remain the primary, most cost-effective frontline imaging modality globally. However, manual radiograph interpretation is limited by diagnostic backlogs, specialist shortages, and inter-observer variability.
 
