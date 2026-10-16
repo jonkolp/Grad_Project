@@ -214,12 +214,21 @@ python src/predict.py \
 ```
 .
 ├── CITATION.cff               # Machine-readable academic citation metadata
-├── FUTURE_WORK.md             # Comprehensive research roadmap for future extensions
+├── CONTRIBUTING.md            # Guidelines for open-source research contributors
 ├── LICENSE                    # MIT License with medical AI disclaimer
 ├── README.md                  # Main repository documentation
 ├── requirements.txt           # Python library dependencies
 ├── .gitattributes             # Git LFS tracking rules for models and media
 ├── .gitignore                 # Build and environment exclusions
+│
+├── docs/                      # Centralized documentation directory
+│   ├── README.md              # Documentation index and inventory
+│   ├── Final_Documentation.pdf# Full 16-page graduation project thesis
+│   ├── Final_Presentation.pdf # 45-slide final defense presentation
+│   ├── ABSTRACT_English.pdf   # Official English project abstract
+│   ├── ABSTRACT_Arabic.pdf    # Official Arabic project abstract
+│   ├── FUTURE_WORK.md         # Comprehensive research roadmap for future extensions
+│   └── papers/                # 8 key literature and benchmark reference papers
 │
 ├── GUI/                       # Interactive Streamlit Web Application
 │   ├── app.py                 # Streamlit dashboard entrypoint
@@ -238,12 +247,6 @@ python src/predict.py \
 │   └── predict.py             # CLI inference and prediction script
 │
 ├── Images/                    # Performance plots, confusion matrices, and figures
-├── Papers/                    # Key literature and benchmark reference papers
-│
-├── ABSTRACT_English.pdf       # Official English project abstract
-├── ABSTRACT_Arabic.pdf        # Official Arabic project abstract
-├── Final_Documentation.pdf    # Full 16-page graduation project thesis
-├── Final_Presentation.pdf     # 45-slide final defense presentation
 └── FInal_Demo.avi             # Screen recording demonstration of the live system
 ```
 
@@ -251,7 +254,7 @@ python src/predict.py \
 
 ## 🔮 Future Work & Research Roadmap
 
-An extensive research roadmap is documented in [FUTURE_WORK.md](FUTURE_WORK.md). Key milestones include:
+An extensive research roadmap is documented in [docs/FUTURE_WORK.md](docs/FUTURE_WORK.md). Key milestones include:
 - **Multi-Label Reformulation**: Transitioning from mutually exclusive Softmax to independent Sigmoid activations with Asymmetric Loss (ASL) to support co-occurring pathologies.
 - **Medical Foundation Models**: Benchmarking with RadImageNet and BioViL Vision-Language models.
 - **XAI Modernization**: Implementing Grad-CAM++ and HiResCAM for millisecond-latency saliency.
