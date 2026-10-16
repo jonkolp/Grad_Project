@@ -11,7 +11,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Domain](https://img.shields.io/badge/Domain-Medical%20Computer%20Vision-purple.svg)](#)
 
-*An end-to-end Computer-Aided Diagnosis (CAD) framework for multi-class thoracic pathology classification from Chest Radiographs (CXR), featuring dynamic weighted ensemble fusion and real-time Occlusion Sensitivity interpretability.*
+*An end-to-end Computer-Aided Diagnosis framework for multi-class thoracic pathology classification from Chest Radiographs (CXR), featuring dynamic weighted ensemble fusion and real-time Occlusion Sensitivity interpretability.*
 
 [Overview](#-overview) •
 [📊 Presentation Slides](docs/Final_Presentation.pdf) •
