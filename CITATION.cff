@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you utilize this research codebase, models, or methodology in your academic work, please cite it as below."
+title: "Lung Diseases Classification and Prediction Using Chest X-Ray (CXR) with Multi-Backbone Ensemble and Explainable AI"
+authors:
+  - family-names: "Hany"
+    given-names: "Youssef Ahmed"
+    affiliation: "Faculty of Computer Science, October University for Modern Sciences and Arts (MSA University)"
+date-released: 2026-01-20
+version: 1.0.0
+keywords:
+  - "chest-xray"
+  - "deep-learning"
+  - "ensemble-learning"
+  - "medical-imaging"
+  - "explainable-ai"
+  - "computer-vision"
+  - "pytorch"
+repository-code: "https://github.com/youssefx2073/grad-project"
+license: "MIT"
