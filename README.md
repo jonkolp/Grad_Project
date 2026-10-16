@@ -246,6 +246,9 @@ python src/predict.py \
 │   ├── explainability.py      # Accelerated Occlusion Sensitivity algorithms
 │   └── predict.py             # CLI inference and prediction script
 │
+├── notebooks/                 # Training and experimentation notebooks
+│   └── last-try-grad-project.ipynb # Complete Kaggle training and experimentation pipeline
+│
 ├── Images/                    # Performance plots, confusion matrices, and figures
 └── FInal_Demo.avi             # Screen recording demonstration of the live system
 ```
@@ -273,7 +276,7 @@ If you use this repository, models, or methodology in your research, please cite
   title        = {Lung Diseases Classification and Prediction Using CXR with Multi-Backbone Ensemble and Explainable AI},
   year         = {2026},
   publisher    = {GitHub},
-  howpublished = {\url{https://github.com/youssefx2073/grad-project}},
+  howpublished = {\url{https://github.com/jonkolp/Grad_Project}},
   note         = {Faculty of Computer Science, October University for Modern Sciences and Arts (MSA University) in collaboration with University of Greenwich}
 }
 ```
